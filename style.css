@@ -1,0 +1,83 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+body{
+    
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background: linear-gradient(white,gray);
+}
+
+
+h1,h2,h3 h4{
+    text-shadow: 5px 5px 5px white;
+    
+}
+
+.avatar{
+  
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+h2,h4{
+    background-color: beige;
+}
+
+#header{
+    /* padding: 25px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+align-items: center;
+
+}
+#bday, #date{
+    margin: 2px;
+    
+}
+.gif-img{
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;  
+      border-radius: 20px;
+      
+      background: linear-gradient(gray,#d3d3d3);
+      background-size: cover;
+
+}
+#gif-img-happy:hover{
+    background-image: url("gift.webp");
+}
+
+#gif-img-hot:hover{
+    background-image: url("giphy.webp");
+}
+
+#gif-img-spark{
+    width: 400px;
+}
+
+#gif-img-spark:hover{
+    background-image: url("giphy\ \(1\).webp");
+}
+
+
+
+.giftsection{
+    margin-top: 100px;
+}
+
+.giftitle{
+margin-bottom: 10px;
+}
+
+.gifhint{
+    margin-top: 0px;
+}
